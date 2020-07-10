@@ -1,2 +1,2 @@
 
-- 🔭 I’m currently working on XYZ Technology
+- 🔭 I’m working at XYZ Technology as a Software & System Architect
