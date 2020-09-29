@@ -11,3 +11,6 @@
 <p>
 <img align="left" width="490" height="165" src="https://github-readme-stats.vercel.app/api?username=mckanpolat&theme=chartreuse-dark&show_icons=true&hide_border=false&line_height=20&show_owner=true&include_all_commits=true&count_private=true"/>
 </p>
+
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mckanpolat&layout=compact)](https://github.com/mckanpolat/github-readme-stats)
