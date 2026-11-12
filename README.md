@@ -1,40 +1,31 @@
-![Mehmet Can Kanpolat — Engineering leadership · Distributed systems · Agentic CI/CD · AI · Developer tools · Personal projects](assets/profile-header.svg)
+![Mehmet Can Kanpolat — Engineering leadership, distributed systems, and developer tools](assets/profile-header.svg)
 
-I build systems that connect services, simplify workflows, and help developers ship.
-Engineering leader and software developer.
+I'm an engineering leader and software developer focused on distributed systems, developer tooling, and CI/CD automation.
 
-[Website ↗](https://www.kanpolat.net) · [All projects ↗](https://github.com/MCKanpolat?tab=repositories)
+[Website](https://www.kanpolat.net) · [All repositories](https://github.com/MCKanpolat?tab=repositories)
 
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-292E36?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+## Selected projects
 
----
+### Infrastructure and messaging
 
-## Selected work
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [NuShelf](https://github.com/MCKanpolat/NuShelf) | Self-hosted NuGet registry with private team feeds, upstream caching, and GitHub OIDC publishing. | Rust · PostgreSQL · NuGet |
+| [AnyProtocol](https://github.com/MCKanpolat/AnyProtocol) | Contract-first .NET messaging with generated proxies and pluggable transports, including REST, gRPC, Kafka, and MCP. | C# · .NET |
 
-A selection of my projects across messaging, package infrastructure, automation, and integrations.
+### Developer automation and observability
 
-### Infrastructure & messaging
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [RepoGuardian](https://github.com/MCKanpolat/RepoGuardian) | Reminds inactive PR reviewers and prompts authors to clean up stale merged branches across GitHub repositories. | JavaScript · GitHub |
+| [auto-semver-action](https://github.com/MCKanpolat/auto-semver-action) | Calculates the next semantic version from commit message tags and existing release tags. | TypeScript · GitHub Actions |
+| [Log4net.Appenders.Fluentd](https://github.com/MCKanpolat/Log4net.Appenders.Fluentd) | Ships log4net events to Fluentd. | C# · log4net |
+| [SharpRaven.Log4Net.Core](https://github.com/MCKanpolat/SharpRaven.Log4Net.Core) | Sends log4net errors to Sentry. | C# · log4net |
 
-| Project | Overview | Built with |
-| :--- | :--- | :--- |
-| **[NuShelf ↗](https://github.com/MCKanpolat/NuShelf)** | A NuGet package server for hosting and managing packages. | `Rust` · `NuGet` |
-| **[AnyProtocol ↗](https://github.com/MCKanpolat/AnyProtocol)** | Contract-first .NET messaging with generated proxies and pluggable transports, from REST and gRPC to Kafka and MCP. | `C#` · `.NET` |
+### Smart home and 3D printing
 
-### Automation & integrations
-
-| Project | Overview | Built with |
-| :--- | :--- | :--- |
-| **[RepoGuardian ↗](https://github.com/MCKanpolat/RepoGuardian)** | Reminds inactive PR reviewers and nudges authors to clean up stale merged branches across repositories and organizations. | `JavaScript` |
-| **[auto-semver-action ↗](https://github.com/MCKanpolat/auto-semver-action)** | Calculates the next semantic version from commit message tags and existing release tags. | `TypeScript` · `GitHub Actions` |
-| **[TCL Home for Matterbridge ↗](https://github.com/MCKanpolat/matterbridge-plugin-tcl-home)** | Connects TCL Home devices to Matter and Apple Home through Matterbridge. | `TypeScript` · `Matter` |
-| **[Log4net.Appenders.Fluentd ↗](https://github.com/MCKanpolat/Log4net.Appenders.Fluentd)** | Sends log4net events to Fluentd. | `C#` · `log4net` |
-| **[SharpRaven.Log4Net.Core ↗](https://github.com/MCKanpolat/SharpRaven.Log4Net.Core)** | Sends log4net errors to Sentry. | `C#` · `log4net` |
-
-**[Explore all repositories →](https://github.com/MCKanpolat?tab=repositories)**
-
----
-
-*Distributed systems / Developer experience / Practical integrations*
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [Matterbridge Print Progress](https://github.com/MCKanpolat/matterbridge-printprogress) | Shows live progress from Klipper and compatible Creality printers in Apple Home and supports automations on successful print completion. | TypeScript · Matterbridge · Matter |
+| [PrintPercent](https://github.com/MCKanpolat/printpercent) | Runs as a Docker add-on on SONOFF iHost and exposes printer progress and status to Apple Home through the iHost Matter Bridge. | JavaScript · Docker · eWeLink CUBE |
+| [TCL Home for Matterbridge](https://github.com/MCKanpolat/matterbridge-plugin-tcl-home) | Brings TCL Home devices into Apple Home through Matterbridge. | TypeScript · Matterbridge · Matter |
